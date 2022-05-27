@@ -1,0 +1,29 @@
+.search-container {
+	width: 75%;
+	margin-bottom: 40px;
+	form {
+		display: flex;
+		flex-direction: row;
+		box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		padding: 6px;
+		input {
+			flex-grow: 2;
+			border: none;
+			&:focus {
+				outline: none;
+			}
+			&::placeholder {
+				color: black;
+			}
+		}
+		button {
+			border: none;
+			background-color: #2F4159;
+			color: white;
+			font-weight: bold;
+			padding: 12px 34px;
+			border-radius: 6px;
+			cursor: pointer;
+		}
+	}
+}
